@@ -8,7 +8,7 @@ from .models import Chat
 from django.utils import timezone
 
 # Create your views here.
-openai.api_key = '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'
+openai.api_key = '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'
 
 def ask_openai(message):
     response = openai.ChatCompletion.create(
